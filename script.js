@@ -23,7 +23,7 @@ function calculate() {
             dropRate = 0.02;
             avgSubDrops = 2; // 紫電角
             mainResultText = "後青箱を『<span class='result-highlight'>{}</span>』回落としてください。";
-            subResultText = "紫電角が『<span class='result-highlight'>{}</span>』個増える程度の周回数です。";
+            subResultText = "すべて青箱なら紫電角が『<span class='result-highlight'>{}</span>』個増える程度の周回数です。";
             break;
         case "albahha":
             dropRate = 0.0005;
@@ -35,13 +35,13 @@ function calculate() {
             dropRate = 0.002;
             avgSubDrops = 1.5; // 蒼翠の結晶
             mainResultText = "後『<span class='result-highlight'>{}</span>』回倒してください。";
-            subResultText = "蒼翠の結晶（トゲトゲ）が『<span class='result-highlight'>{}</span>』個増える程度の周回数です。";
+            subResultText = "すべて青箱なら蒼翠の結晶（トゲトゲ）が『<span class='result-highlight'>{}</span>』個増える程度の周回数です。";
             break;
         case "akasha":
             dropRate = 0.002;
             avgSubDrops = 2; // 虚ろなる鍵
             mainResultText = "後『<span class='result-highlight'>{}</span>』回倒してください。";
-            subResultText = "虚ろなる鍵が『<span class='result-highlight'>{}</span>』個増える程度の周回数です。";
+            subResultText = "すべて青箱なら虚ろなる鍵が『<span class='result-highlight'>{}</span>』個増える程度の周回数です。";
             break;
     }
 
